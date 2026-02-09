@@ -4,16 +4,38 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "robotframework-quality-scanner"
-version = "0.1.0"
-description = "Quality scanner for Robot Framework automation"
+version = "0.2.0"
+description = "Quality scanner for Robot Framework automation - static analysis, performance, duplication detection, and more"
 readme = "README.md"
 requires-python = ">=3.8"
 license = {text = "Apache-2.0"}
 authors = [ {name = "Luis", email = "luis@example.com"} ]
+keywords = ["robotframework", "quality", "testing", "static-analysis", "automation"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Software Development :: Testing"
+]
 dependencies = [ "robotframework>=6.0" ]
 
 [project.optional-dependencies]
-dev = ["pytest>=7.0"]
+dev = ["pytest>=7.0", "black>=22.0", "flake8>=4.0"]
+api = ["flask>=2.0"]
+all = ["pytest>=7.0", "black>=22.0", "flake8>=4.0", "flask>=2.0"]
+
+[project.urls]
+homepage = "https://github.com/luisPinheiro536/qa-static-analysis"
+repository = "https://github.com/luisPinheiro536/qa-static-analysis.git"
+documentation = "https://github.com/luisPinheiro536/qa-static-analysis/wiki"
+issues = "https://github.com/luisPinheiro536/qa-static-analysis/issues"
 
 [tool.setuptools]
-packages = ["robotframework_quality_scanner"]
+package-dir = { "" = "src" }
+packages = ["robotframework_quality_scanner", "robotframework_quality_scanner.analyzers", 
+            "robotframework_quality_scanner.models", "robotframework_quality_scanner.reporters",
+            "robotframework_quality_scanner.utils", "robotframework_quality_scanner.api"]
