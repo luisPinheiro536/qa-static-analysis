@@ -1,7 +1,10 @@
+LICENSE
 README.md
 pyproject.toml
 setup.py
 src/robotframework_quality_scanner/__init__.py
+src/robotframework_quality_scanner/cli.py
+src/robotframework_quality_scanner/robot_library.py
 src/robotframework_quality_scanner/scanner.py
 src/robotframework_quality_scanner.egg-info/PKG-INFO
 src/robotframework_quality_scanner.egg-info/SOURCES.txt
@@ -14,6 +17,12 @@ src/robotframework_quality_scanner/analyzers/duplication_analyzer.py
 src/robotframework_quality_scanner/analyzers/performance_analyzer.py
 src/robotframework_quality_scanner/analyzers/test_data_analyzer.py
 src/robotframework_quality_scanner/api/__init__.py
+src/robotframework_quality_scanner/models/issue.py
+src/robotframework_quality_scanner/reporters/console_reporter.py
+src/robotframework_quality_scanner/reporters/coverage_report.py
+src/robotframework_quality_scanner/reporters/executive_report.py
 src/robotframework_quality_scanner/utils/__init__.py
 src/robotframework_quality_scanner/utils/autofix.py
 src/robotframework_quality_scanner/utils/history.py
+src/robotframework_quality_scanner/utils/logger.py
+tests/test_scanner.py

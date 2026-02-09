@@ -29,6 +29,11 @@ setup(
         "api": ["flask>=2.0"],
         "all": ["pytest>=7.0", "black>=22.0", "flake8>=4.0", "flask>=2.0"],
     },
+    entry_points={
+        "console_scripts": [
+            "qa-scanner=robotframework_quality_scanner.cli:main",
+        ],
+    },
     keywords=["robotframework", "quality", "testing", "static-analysis", "automation"],
     classifiers=[
         "Development Status :: 4 - Beta",

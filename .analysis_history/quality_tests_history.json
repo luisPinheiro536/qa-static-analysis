@@ -1,0 +1,16 @@
+{
+  "file": "examples/quality_tests.robot",
+  "runs": [
+    {
+      "timestamp": "2026-02-09T19:10:45.974867",
+      "analysis_type": "all",
+      "issue_count": 3,
+      "issues_by_severity": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 2,
+        "LOW": 1
+      }
+    }
+  ]
+}

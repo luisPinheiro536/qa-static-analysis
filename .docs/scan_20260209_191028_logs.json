@@ -1,0 +1,46 @@
+{
+  "summary": {
+    "total_logs": 3,
+    "total_errors": 0,
+    "total_warnings": 0,
+    "timestamp": "2026-02-09T19:10:28.623986",
+    "duration": "N/A"
+  },
+  "errors": [],
+  "warnings": [],
+  "all_logs": [
+    {
+      "timestamp": "2026-02-09T19:10:28.623507",
+      "level": "INFO",
+      "message": "Iniciando scan de /tmp/pytest-of-luis/pytest-5/test_scan_example0/example.robot",
+      "source": "scan",
+      "error_type": null,
+      "traceback": null,
+      "context": {
+        "path": "/tmp/pytest-of-luis/pytest-5/test_scan_example0/example.robot",
+        "use_cache": true
+      }
+    },
+    {
+      "timestamp": "2026-02-09T19:10:28.623771",
+      "level": "DEBUG",
+      "message": "Cache hit para /tmp/pytest-of-luis/pytest-5/test_scan_example0/example.robot",
+      "source": "scan_file",
+      "error_type": null,
+      "traceback": null,
+      "context": null
+    },
+    {
+      "timestamp": "2026-02-09T19:10:28.623829",
+      "level": "INFO",
+      "message": "Scan concluído: 1 issues encontrados em 0 arquivos",
+      "source": "scan",
+      "error_type": null,
+      "traceback": null,
+      "context": {
+        "total_issues": 1,
+        "files": 0
+      }
+    }
+  ]
+}

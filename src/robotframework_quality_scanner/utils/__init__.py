@@ -2,6 +2,8 @@ import hashlib
 import os
 import pickle
 from pathlib import Path
+from .history import AnalysisHistory
+from .logger import StructuredLogger
 
 
 class AnalysisCache:

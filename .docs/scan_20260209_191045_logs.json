@@ -1,0 +1,70 @@
+{
+  "summary": {
+    "total_logs": 5,
+    "total_errors": 0,
+    "total_warnings": 0,
+    "timestamp": "2026-02-09T19:10:45.975526",
+    "duration": "N/A"
+  },
+  "errors": [],
+  "warnings": [],
+  "all_logs": [
+    {
+      "timestamp": "2026-02-09T19:10:45.973903",
+      "level": "INFO",
+      "message": "Iniciando scan de examples",
+      "source": "scan",
+      "error_type": null,
+      "traceback": null,
+      "context": {
+        "path": "examples",
+        "use_cache": true
+      }
+    },
+    {
+      "timestamp": "2026-02-09T19:10:45.974142",
+      "level": "INFO",
+      "message": "Escaneando arquivo: quality_tests.robot",
+      "source": "scan_file",
+      "error_type": null,
+      "traceback": null,
+      "context": {
+        "file": "quality_tests.robot",
+        "size": 1546
+      }
+    },
+    {
+      "timestamp": "2026-02-09T19:10:45.975013",
+      "level": "INFO",
+      "message": "Arquivo quality_tests.robot escaneado: 3 issues encontrados",
+      "source": "scan_file",
+      "error_type": null,
+      "traceback": null,
+      "context": {
+        "file": "quality_tests.robot",
+        "issues": 3
+      }
+    },
+    {
+      "timestamp": "2026-02-09T19:10:45.975224",
+      "level": "DEBUG",
+      "message": "Cache hit para examples/bad_web.robot",
+      "source": "scan_file",
+      "error_type": null,
+      "traceback": null,
+      "context": null
+    },
+    {
+      "timestamp": "2026-02-09T19:10:45.975315",
+      "level": "INFO",
+      "message": "Scan concluído: 17 issues encontrados em 1 arquivos",
+      "source": "scan",
+      "error_type": null,
+      "traceback": null,
+      "context": {
+        "total_issues": 17,
+        "files": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "summary": {
+    "total_logs": 16,
+    "total_errors": 0,
+    "total_warnings": 0,
+    "timestamp": "2026-02-09T19:12:26.417200",
+    "duration": "N/A"
+  },
+  "errors": [],
+  "warnings": [],
+  "all_logs": [
+    {
+      "timestamp": "2026-02-09T19:12:26.409348",
+      "level": "INFO",
+      "message": "Iniciando scan de examples/bad_web.robot",
+      "source": "scan",
+      "error_type": null,
+      "traceback": null,
+      "context": {
+        "path": "examples/bad_web.robot",
+        "use_cache": true
+      }
+    },
+    {
+      "timestamp": "2026-02-09T19:12:26.409641",
+      "level": "DEBUG",
+      "message": "Cache hit para examples/bad_web.robot",
+      "source": "scan_file",
+      "error_type": null,
+      "traceback": null,
+      "context": null
+    },
+    {
+      "timestamp": "2026-02-09T19:12:26.409701",
+      "level": "INFO",
+      "message": "Scan concluído: 14 issues encontrados em 0 arquivos",
+      "source": "scan",
+      "error_type": null,
+      "traceback": null,
+      "context": {
+        "total_issues": 14,
+        "files": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-09T19:12:26.411260",
+      "level": "INFO",
+      "message": "Iniciando scan de examples/bad_web.robot",
+      "source": "scan",
+      "error_type": null,
+      "traceback": null,
+      "context": {
+        "path": "examples/bad_web.robot",
+        "use_cache": true
+      }
+    },
+    {
+      "timestamp": "2026-02-09T19:12:26.411455",
+      "level": "DEBUG",
+      "message": "Cache hit para examples/bad_web.robot",
+      "source": "scan_file",
+      "error_type": null,
+      "traceback": null,
+      "context": null
+    },
+    {
+      "timestamp": "2026-02-09T19:12:26.411502",
+      "level": "INFO",
+      "message": "Scan concluído: 14 issues encontrados em 0 arquivos",
+      "source": "scan",
+      "error_type": null,
+      "traceback": null,
+      "context": {
+        "total_issues": 14,
+        "files": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-09T19:12:26.412050",
+      "level": "INFO",
+      "message": "Relatórios gerados na pasta .docs",
+      "source": "scan",
+      "error_type": null,
+      "traceback": null,
+      "context": null
+    },
+    {
+      "timestamp": "2026-02-09T19:12:26.413240",
+      "level": "INFO",
+      "message": "Iniciando scan de examples/bad_web.robot",
+      "source": "scan",
+      "error_type": null,
+      "traceback": null,
+      "context": {
+        "path": "examples/bad_web.robot",
+        "use_cache": true
+      }
+    },
+    {
+      "timestamp": "2026-02-09T19:12:26.413426",
+      "level": "DEBUG",
+      "message": "Cache hit para examples/bad_web.robot",
+      "source": "scan_file",
+      "error_type": null,
+      "traceback": null,
+      "context": null
+    },
+    {
+      "timestamp": "2026-02-09T19:12:26.413470",
+      "level": "INFO",
+      "message": "Scan concluído: 14 issues encontrados em 0 arquivos",
+      "source": "scan",
+      "error_type": null,
+      "traceback": null,
+      "context": {
+        "total_issues": 14,
+        "files": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-09T19:12:26.415580",
+      "level": "INFO",
+      "message": "Iniciando scan de examples/bad_web.robot",
+      "source": "scan",
+      "error_type": null,
+      "traceback": null,
+      "context": {
+        "path": "examples/bad_web.robot",
+        "use_cache": true
+      }
+    },
+    {
+      "timestamp": "2026-02-09T19:12:26.415765",
+      "level": "DEBUG",
+      "message": "Cache hit para examples/bad_web.robot",
+      "source": "scan_file",
+      "error_type": null,
+      "traceback": null,
+      "context": null
+    },
+    {
+      "timestamp": "2026-02-09T19:12:26.415808",
+      "level": "INFO",
+      "message": "Scan concluído: 14 issues encontrados em 0 arquivos",
+      "source": "scan",
+      "error_type": null,
+      "traceback": null,
+      "context": {
+        "total_issues": 14,
+        "files": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-09T19:12:26.416781",
+      "level": "INFO",
+      "message": "Iniciando scan de examples/bad_web.robot",
+      "source": "scan",
+      "error_type": null,
+      "traceback": null,
+      "context": {
+        "path": "examples/bad_web.robot",
+        "use_cache": true
+      }
+    },
+    {
+      "timestamp": "2026-02-09T19:12:26.416958",
+      "level": "DEBUG",
+      "message": "Cache hit para examples/bad_web.robot",
+      "source": "scan_file",
+      "error_type": null,
+      "traceback": null,
+      "context": null
+    },
+    {
+      "timestamp": "2026-02-09T19:12:26.417002",
+      "level": "INFO",
+      "message": "Scan concluído: 14 issues encontrados em 0 arquivos",
+      "source": "scan",
+      "error_type": null,
+      "traceback": null,
+      "context": {
+        "total_issues": 14,
+        "files": 0
+      }
+    }
+  ]
+}
