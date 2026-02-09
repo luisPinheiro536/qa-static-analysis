@@ -1,0 +1,42 @@
+╔==============================================================================╗
+║                  RELATÓRIO EXECUTIVO - ANÁLISE DE QUALIDADE                  ║
+╚==============================================================================╝
+
+📊 SUMÁRIO
+--------------------------------------------------------------------------------
+Total de Issues:        14
+Score de Qualidade:     72.1/100
+Arquivos Analisados:    1
+Tempo de Análise:       0.00s
+
+⚠️  DISTRIBUIÇÃO POR SEVERIDADE
+--------------------------------------------------------------------------------
+🟠 HIGH        :   4 issues
+🔵 LOW         :   1 issues
+🟡 MEDIUM      :   9 issues
+
+📁 DISTRIBUIÇÃO POR CATEGORIA
+--------------------------------------------------------------------------------
+  WEB                 :   9 issues
+  DUPLICATION         :   4 issues
+  TEST_DATA           :   1 issues
+
+🎯 TOP 10 ISSUES MAIS FREQUENTES
+--------------------------------------------------------------------------------
+   1. rule           : count occorrências
+   2. rule           : count occorrências
+   3. rule           : count occorrências
+   4. rule           : count occorrências
+   5. rule           : count occorrências
+
+📄 TOP 5 ARQUIVOS COM MAIS ISSUES
+--------------------------------------------------------------------------------
+  1. file                                    : count issues
+
+💡 RECOMENDAÇÕES
+--------------------------------------------------------------------------------
+  🟠 ALTA: 4 issue(s) de alta severidade. Prioritize na próxima sprint.
+  🔄 Duplicação: 4 issues. Consolide código repetido.
+
+================================================================================
+Gerado em: 2026-02-09T18:25:55.324075

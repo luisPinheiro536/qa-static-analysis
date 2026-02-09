@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "robotframework-quality-scanner"
-version = "0.2.0"
-description = "Quality scanner for Robot Framework automation - static analysis, performance, duplication detection, and more"
+version = "0.3.0"
+description = "Quality scanner for Robot Framework automation - static analysis, performance, duplication detection, and automatic report generation"
 readme = "README.md"
 requires-python = ">=3.8"
 license = {text = "Apache-2.0"}

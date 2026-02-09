@@ -74,28 +74,70 @@ pip install robotframework-quality-scanner
 from robotframework_quality_scanner import QualityScanner
 
 scanner = QualityScanner()
-issues = scanner.scan("./tests/")
 
-for issue in issues:
-    print(f"[{issue.severity}] {issue.rule_id} - {issue.file}:{issue.line}")
-    print(f"  {issue.description}")
-    print(f"  → {issue.recommendation}\n")
+# Escanear com geração automática de relatórios
+issues, reports = scanner.scan("./tests/", generate_reports=True)
+
+# Exibir relatório executivo
+print(reports['executive'].to_text())
+
+# Salvar todos os relatórios em arquivos
+scanner.save_reports("./quality-reports")
 ```
 
-### Tendências
+### Relatórios Automáticos
+
+Ao final da execução, a biblioteca gera automaticamente dois relatórios:
+
+1. **Relatório Executivo** - Sumário de qualidade com:
+   - Score de qualidade (0-100)
+   - Distribuição por severidade
+   - Distribuição por categoria
+   - Top 10 issues mais frequentes
+   - Top 5 arquivos com mais problemas
+   - Recomendações automáticas
+
+2. **Relatório de Cobertura** - Análise de testes com:
+   - Cobertura de documentação de keywords
+   - Cobertura de uso de keywords
+   - Detecção de keywords não utilizadas
+   - Métricas por arquivo
 
 ```python
-# Ver tendências automáticas
-trends = scanner.history.get_trends("./tests/login.robot")
-print(f"Tendência: {trends['trend']}")
+# Gerar formatos específicos
+exec_text = scanner.generate_executive_report(issues, format='text')
+exec_html = scanner.generate_executive_report(issues, format='html')
+exec_json = scanner.generate_executive_report(issues, format='json')
+
+cov_text = scanner.generate_coverage_report(format='text')
+cov_html = scanner.generate_coverage_report(format='html')
+
+# Salvar em diretório específico
+scanner.save_reports("./output/reports")
+# Cria:
+#   ├── executive_report.html
+#   ├── executive_report.txt
+#   ├── executive_report.json
+#   ├── coverage_report.html
+#   └── coverage_report.txt
 ```
 
-### Auto-Fix
+### Exemplo Completo
 
 ```python
-from robotframework_quality_scanner.utils.autofix import AutoFixer
-fixes = AutoFixer.fix_file("./tests/bad_test.robot")
+from robotframework_quality_scanner import QualityScanner
+
+scanner = QualityScanner()
+issues, reports = scanner.scan("./tests/", use_cache=False, generate_reports=True)
+
+print(f"[SUMÁRIO] {len(issues)} problemas encontrados")
+print(f"[QUALIDADE] {reports['executive'].to_dict()['summary']['quality_score']}/100")
+
+# Salvar relatórios
+output = scanner.save_reports("./quality-reports")
+print(f"✓ Relatórios salvos em: {output}")
 ```
+
 
 ---
 
