@@ -44,6 +44,17 @@
         "MEDIUM": 9,
         "LOW": 1
       }
+    },
+    {
+      "timestamp": "2026-02-09T18:46:23.367326",
+      "analysis_type": "all",
+      "issue_count": 14,
+      "issues_by_severity": {
+        "CRITICAL": 0,
+        "HIGH": 4,
+        "MEDIUM": 9,
+        "LOW": 1
+      }
     }
   ]
 }
