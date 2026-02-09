@@ -54,3 +54,8 @@ class AnalysisCache:
             "cache_size": sum(f.stat().st_size for f in files),
             "file_count": len(files)
         }
+
+# Importar logger para fácil acesso
+from .logger import StructuredLogger
+
+__all__ = ['AnalysisCache', 'StructuredLogger']

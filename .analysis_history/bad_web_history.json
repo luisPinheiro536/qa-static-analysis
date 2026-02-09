@@ -2,7 +2,7 @@
   "file": "examples/bad_web.robot",
   "runs": [
     {
-      "timestamp": "2026-02-09T18:25:41.691591",
+      "timestamp": "2026-02-09T18:28:00.841524",
       "analysis_type": "all",
       "issue_count": 14,
       "issues_by_severity": {
@@ -13,7 +13,29 @@
       }
     },
     {
-      "timestamp": "2026-02-09T18:25:55.323714",
+      "timestamp": "2026-02-09T18:28:23.364943",
+      "analysis_type": "all",
+      "issue_count": 14,
+      "issues_by_severity": {
+        "CRITICAL": 0,
+        "HIGH": 4,
+        "MEDIUM": 9,
+        "LOW": 1
+      }
+    },
+    {
+      "timestamp": "2026-02-09T18:28:38.694590",
+      "analysis_type": "all",
+      "issue_count": 14,
+      "issues_by_severity": {
+        "CRITICAL": 0,
+        "HIGH": 4,
+        "MEDIUM": 9,
+        "LOW": 1
+      }
+    },
+    {
+      "timestamp": "2026-02-09T18:41:12.585198",
       "analysis_type": "all",
       "issue_count": 14,
       "issues_by_severity": {

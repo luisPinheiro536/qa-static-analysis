@@ -2,8 +2,8 @@
 
 Uma **Robot Framework Library** para escanear projetos de automação **Web, Mobile e API**, identificar **más práticas**, gerar **logs estruturados**, **relatórios** e **sugestões de correção baseadas em boas práticas oficiais**.
 
-**Versão**: 0.2.0  
-**Status**: Beta com suporte para caching, histórico, 4 analisadores especializados e API REST.
+**Versão**: 0.3.0  
+**Status**: Beta com suporte para caching, histórico, 4 analisadores especializados, API REST e logging estruturado com documentação automática.
 
 ---
 
@@ -16,11 +16,12 @@ Uma **Robot Framework Library** para escanear projetos de automação **Web, Mob
 * **Cache 10x mais rápido** para análises repetidas
 * Rastrear **histórico e tendências** de qualidade
 * Gerar **múltiplos relatórios** (JSON, HTML, TXT)
+* **Capturar logs, erros e traces** estruturados em documentação automática
 * Integrar facilmente com **CI/CD e ferramentas externas** via API REST
 
 ---
 
-## ✨ Features v0.2.0
+## ✨ Features v0.3.0
 
 ### ✅ Implementado
 
@@ -45,7 +46,20 @@ Uma **Robot Framework Library** para escanear projetos de automação **Web, Mob
    - Adiciona [Documentation]
    - Capitaliza keywords
 
-5. **API REST**
+5. **Relatórios Executivos e de Cobertura** (v0.3.0)
+   - Score de qualidade (0-100)
+   - Distribuição por severidade e categoria
+   - Cobertura de testes
+   - Formatos: Text, JSON, HTML
+
+6. **Logging Estruturado com Documentação** (v0.3.0)
+   - Captura automática de erros e traces
+   - Relatórios em Markdown com formatação
+   - Exportação em JSON para análise programática
+   - Pasta `.docs/` para armazenar documentação
+   - Histórico de todas as execuções
+
+7. **API REST**
    - Endpoints para análise de arquivo/diretório
    - Geração de relatórios (JSON, HTML, TXT)
    - Health check e sumário
