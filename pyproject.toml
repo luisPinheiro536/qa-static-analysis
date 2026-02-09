@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "build"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "robotframework-quality-scanner"
+version = "0.1.0"
+description = "Quality scanner for Robot Framework automation"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "Apache-2.0"}
+authors = [ {name = "Luis", email = "luis@example.com"} ]
+dependencies = [ "robotframework>=6.0" ]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[tool.setuptools]
+packages = ["robotframework_quality_scanner"]
