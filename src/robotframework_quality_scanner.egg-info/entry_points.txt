@@ -1,0 +1,3 @@
+[console_scripts]
+qa-scanner = robotframework_quality_scanner.cli:main
+

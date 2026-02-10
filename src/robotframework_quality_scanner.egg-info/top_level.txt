@@ -1,1 +1,5 @@
-robotframework_quality_scanner
+analyzers
+api
+models
+reporters
+utils

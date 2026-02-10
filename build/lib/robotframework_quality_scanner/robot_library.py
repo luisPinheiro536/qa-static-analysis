@@ -15,7 +15,7 @@ Exemplo de uso:
 """
 
 from robot.api.deco import keyword
-from robotframework_quality_scanner import QualityScanner
+from quality_scanner import QualityScanner
 
 
 class QualityAnalysisLibrary:

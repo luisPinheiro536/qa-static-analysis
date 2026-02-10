@@ -4,8 +4,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="robotframework-quality-scanner",
-    version="0.3.0",
+    name="robotframework_quality_scanner",
+    version="0.4.0",
     author="Luis",
     author_email="luis@example.com",
     description="Quality scanner for Robot Framework automation - static analysis, performance, duplication detection, and automatic report generation",

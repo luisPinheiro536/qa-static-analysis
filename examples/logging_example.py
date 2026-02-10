@@ -7,7 +7,7 @@ import os
 # Add src to path
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'src'))
 
-from robotframework_quality_scanner import QualityScanner
+from quality_scanner import QualityScanner
 
 
 def main():

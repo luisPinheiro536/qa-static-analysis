@@ -4,7 +4,7 @@
 import sys
 import argparse
 from pathlib import Path
-from robotframework_quality_scanner import QualityScanner
+from quality_scanner import QualityScanner
 
 
 def main():

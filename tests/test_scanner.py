@@ -1,4 +1,4 @@
-from robotframework_quality_scanner.scanner import QualityScanner
+from quality_scanner.scanner import QualityScanner
 
 
 def test_scan_example(tmp_path):
